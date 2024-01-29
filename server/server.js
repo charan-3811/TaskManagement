@@ -9,7 +9,9 @@ const PORT = 3050;
 app.use(bodyParser.json());
 
 const corsOptions = {
-    origin: 'http://localhost:5173',
+    origin: '*',
+    methods:["post","get"],
+    credentials:true
 };
 
 app.use(cors(corsOptions));
