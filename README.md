@@ -1,4 +1,7 @@
 # TaskManagement
+
+This project doesnt have any deployment 
+
 Client is made using vite react
 To run client follow these steps
 1.cd client
